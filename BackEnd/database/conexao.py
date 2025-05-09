@@ -7,7 +7,7 @@ def get_db_connection():
         port=3306,
         database="projetofaculdade",
         user="root",
-        password=""  # Substitua com a senha correta
+        password=""
     )
     return conn
 
